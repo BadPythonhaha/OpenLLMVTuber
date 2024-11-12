@@ -42,6 +42,13 @@ set https_proxy=<代理>:<端口>
 python -m unidic download
 ```
 通常，`<代理>:<端口>`是`127.0.0.1:7890`，但你最好在设置中检查一下。
-
+7. 使用Ollama下载语言模型：
+```batch
+ollama pull <模型名称>
+```
+你可以用任何在[Ollama模型库](https://ollama.com/library)中的模型名称替换`<模型名称>`，在这个修改过的项目中，以`llama3.2:latest`为默认模型，你仍然可以用其他模型替换它，但不要忘记修改`config.yaml`中的模型名称。所以如果你不想更改，使用以下命令下载:
+```batch
+ollama pull llama3.2:latest
+```
 ## 注意事项
 这是一个正在进行中的工作，可能存在一些错误或问题。你可以在仓库的Issues部分报告它们，但在寻求帮助之前，建议在互联网上搜索解决方案。

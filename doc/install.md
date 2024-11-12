@@ -42,6 +42,15 @@ set https_proxy=<proxy>:<port>
 python -m unidic download
 ```
 Normally, the `<proxy>:<port>` is `127.0.0.1:7890`, but you better check it in settings.
+7. Download LLM(s) by Ollama:
+```batch
+ollama pull <model_name>
+```
+You can replace `<model_name>` with any in the [Ollama Library](https://ollama.com/library)
+In this modifed project, we use the `llama3.2:latest` model as default, but you can change it to any other model you want. However, don't forget to change it in the `config.yaml` file. So if you don't want to change it, you can run:
+```batch
+ollama pull llama3.2:latest
+```
 
 ## Notice
 This is a work in progress, so there may be some bugs or issues. You can report them in the Issues section of the repository, but it is still recommended to serach for solutions on the internet before asking for help.
