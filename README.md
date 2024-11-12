@@ -21,4 +21,13 @@ See [Installation](./doc/install.md) or [Installation_CN](./doc/install_CN.md) f
 ```batch
 python server.py
 ```
-3. Once you see the message "INFO: Uvicorn running on http://localhost:12393 (Press CTRL+C to quit)" in the console, you need to open browser and go to http://localhost:12393.(Note: you can hold Ctrl and click the link to open it in a new tab)
+3. Once you see the message "INFO: Uvicorn running on http://localhost:12393 (Press CTRL+C to quit)" in the console, you need to open browser and go to http://localhost:12393.
+(Note: you can hold Ctrl and click the link to open it in a new tab)
+4. Enjoy chatting when you see the live2d model set in your browser.
+
+## Credits
+
+- [Open-LLM-VTuber](https://github.com/t41372/Open-LLM-VTuber)
+- [Ollama](https://github.com/t41372/Ollama)
+- [FunASR](https://github.com/modelscope/FunASR)
+- [MeloTTS](https://github.com/myshell-ai/MeloTTS)

@@ -1,4 +1,6 @@
 # Installation
+[CN](./install_CN.md)
+
 If you are planning to install manually, it is recommended to use Anaconda or Miniconda to create a virtual environment.
 **This tutorial assumes that you have Anaconda or Miniconda installed.**
 **Before you start, make sure that you have Git installed on your system.**
