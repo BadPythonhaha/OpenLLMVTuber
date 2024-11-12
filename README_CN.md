@@ -1,5 +1,3 @@
-以下是Markdown文件的核心内容翻译成中文：
-
 # Open-LLM-VTuber Modified
 ![GitHub License](https://img.shields.io/github/license/BadPythonhaha/OpenLLMVTuber)
 
@@ -18,7 +16,7 @@
 
 ## 使用方法
 
-1. 确保你已经进入了安装步骤中创建的视觉环境。
+1. 确保你已经进入了安装步骤中创建的虚拟环境。
 2. 通过以下命令启动服务器：
 ```batch
 python server.py

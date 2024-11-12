@@ -2,8 +2,8 @@
 [EN](./install.md)
 
 如果你打算手动安装，建议使用Anaconda或Miniconda来创建虚拟环境。
-**本教程假设你已经安装了Anaconda或Miniconda。**
-**开始之前，请确保你的系统已安装Git。**
+**本教程假设你已经安装了 Git 和 Anaconda或Miniconda**
+
 
 1. 克隆仓库：
 ```batch
@@ -52,3 +52,4 @@ ollama pull llama3.2:latest
 ```
 ## 注意事项
 这是一个正在进行中的工作，可能存在一些错误或问题。你可以在仓库的Issues部分报告它们，但在寻求帮助之前，建议在互联网上搜索解决方案。
+或者，等待正在开发中的一键包。

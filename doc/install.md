@@ -2,8 +2,7 @@
 [CN](./install_CN.md)
 
 If you are planning to install manually, it is recommended to use Anaconda or Miniconda to create a virtual environment.
-**This tutorial assumes that you have Anaconda or Miniconda installed.**
-**Before you start, make sure that you have Git installed on your system.**
+**This tutorial assumes that you have Git and (Anaconda or Miniconda) installed.**
 
 1. Clone the repository:
 ```batch
@@ -54,3 +53,4 @@ ollama pull llama3.2:latest
 
 ## Notice
 This is a work in progress, so there may be some bugs or issues. You can report them in the Issues section of the repository, but it is still recommended to serach for solutions on the internet before asking for help.
+Or just wait for the 'one-click' installation pack which is developing.
