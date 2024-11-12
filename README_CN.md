@@ -30,6 +30,6 @@ python server.py
 ## 致谢
 
 - [Open-LLM-VTuber](https://github.com/t41372/Open-LLM-VTuber)
-- [Ollama](https://github.com/t41372/Ollama)
+- [Ollama](https://github.com/ollama/ollama)
 - [FunASR](https://github.com/modelscope/FunASR)
 - [MeloTTS](https://github.com/myshell-ai/MeloTTS)
