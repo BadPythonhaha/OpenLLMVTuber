@@ -41,6 +41,7 @@ set https_proxy=<proxy>:<port>
 python -m unidic download
 ```
 Normally, the `<proxy>:<port>` is `127.0.0.1:7890`, but you better check it in settings.
+
 7. Download LLM(s) by Ollama:
 ```batch
 ollama pull <model_name>

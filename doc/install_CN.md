@@ -42,6 +42,7 @@ set https_proxy=<代理>:<端口>
 python -m unidic download
 ```
 通常，`<代理>:<端口>`是`127.0.0.1:7890`，但你最好在设置中检查一下。
+
 7. 使用Ollama下载语言模型：
 ```batch
 ollama pull <模型名称>
