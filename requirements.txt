@@ -15,4 +15,6 @@ openai
 fastapi
 uvicorn[standard]
 httpx
+funasr
+modelscope
 chardet

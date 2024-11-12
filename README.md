@@ -13,3 +13,12 @@ Plus, now I'm trying to make a "one-click" installation package for Windows user
 ## Installation
 
 See [Installation](./doc/install.md) or [Installation_CN](./doc/install_CN.md) for more details.
+
+## Usage
+
+1. Make sure you have entered the visual environment created in the installation step.
+2. Start the server by this command:
+```batch
+python server.py
+```
+3. Once you see the message "INFO: Uvicorn running on http://localhost:12393 (Press CTRL+C to quit)" in the console, you need to open browser and go to http://localhost:12393.(Note: you can hold Ctrl and click the link to open it in a new tab)
